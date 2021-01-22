@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_grad"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edit_search_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_text_here" />
+
+    <Button
+        android:id="@+id/search_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search_click_button"
+        android:textColorHighlight="#19472A"
+        android:textColorLink="#B3E5FC"
+        android:textCursorDrawable="@android:color/holo_orange_light"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/search_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_grad"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/settings_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/google_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google_text_on_button" />
+
+        <RadioButton
+            android:id="@+id/yandex_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/yandex_text_on_button" />
+
+        <RadioButton
+            android:id="@+id/bing_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bing_text_on_button" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/settings_back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_button" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyTask2</string>
+    <string name="settings_menu">Settings</string>
+    <string name="search_menu">Search</string>
+    <string name="logout_menu">Logout</string>
+    <string name="search_click_button">Search</string>
+    <string name="type_text_here">Type text here</string>
+    <string name="google_text_on_button">Google</string>
+    <string name="yandex_text_on_button">Yandex</string>
+    <string name="bing_text_on_button">Bing</string>
+    <string name="back_button">Back</string>
+</resources>
